@@ -1,0 +1,153 @@
+/* CSS Document - Obra */
+	@charset "UTF-8";
+
+	@font-face {
+	Font-Family: 'Label';
+	src: url("../fonte/_Quicksand/Quicksand-Bold.ttf");
+	}
+
+/*===============# PADRÃO #===============*/
+	
+    body {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	background-color: #e5e5e5;
+	}
+
+    h1 {
+    text-align: center;
+    color: #222;
+	font-family: Label;
+	font-size: 14px;
+    }
+
+	.menubox {
+	width: 380px;
+	margin: 30px auto;
+	height: 100%;
+	padding: 20px;
+	background-color: #2682D0;
+	box-shadow: 3px 3px 6px #000022;
+	border-radius: 0px 0px 14px 14px;
+	}
+
+	h2 {
+	text-align: center;
+	color: #000022;
+	font-size: 10px;
+	font-family: Label;
+	}
+
+	.centro {
+	text-align: center;
+	}
+
+	.btnacesso {
+	border: none;
+	background-color: #e5e5e5;
+	margin: 0px auto;
+	border-radius: 6px;
+	padding: 4px;
+	width: 100px;
+	}
+
+	.btnacesso:hover {
+	background-color: #000022;
+	color: #e5e5e5;
+	}
+	
+	.data2 {
+	font-size: 16px;
+	}
+		
+	.branco {
+	background-color: #fff;
+	padding: 0px 8px 8px 8px;
+	margin-bottom: 20px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	}
+		
+	.txtmsg {
+	font-family: Label;
+	font-size: 14px;
+	}
+	
+	.listcomp {
+	color: #222;
+	background-color: #ADD8E6;
+	padding: 6px;
+	border-bottom: 1px #87CEEB solid;
+	}
+
+	.letra {
+	font-family: Label;
+	font-size: 14px;
+	color: #2682D0;
+	}
+
+	.cxtxt {
+	border: none;
+	border-bottom: 1px #4682B4 solid;
+	background-color: transparent;
+	color: #00BFFF;
+	text-align: center;
+	width: 100%;
+	height: 34px;
+	display: block;
+	font-family: Label;
+	}
+				
+	.cxtxt:focus {
+	box-shadow: 2px 2px 3px #2682D0;
+	}
+
+	.Botao {
+	border: none;
+	background-color: #ccc;
+	border: 1px #777 solid;
+	border-radius: 6px;
+	padding: 2px;
+	margin: 4px;
+	}
+
+	.Pesquisar:hover {
+	border: 1px #008000 solid;
+	background-color: #228B22;
+	color: #fff;
+	}
+
+	.Voltar:hover {
+	border: 1px #555 solid;
+	background-color: #222;
+	color: #fff;
+	}
+
+	.Editar:hover {
+	border: 1px #FFD700 solid;
+	background-color: #FFFF00;
+	color: #fff;
+	}
+
+	.Excluir:hover {
+	border: 1px #DC143C solid;
+	background-color: #FF0000;
+	color: #fff;
+	}
+
+	.Salvar:hover {
+	border: 1px #000022 solid;
+	background-color: #2682D0;
+	color: #fff;
+	}
+
+	.linha {
+	padding: 4px;
+	background-color: #e5e5e5;
+	border-bottom: 1px #777 solid;
+	margin-bottom: 2px;
+	}
