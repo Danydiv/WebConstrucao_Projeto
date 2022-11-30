@@ -1,8 +1,11 @@
 package com.web.construcao.entities;
 
 import java.util.ArrayList;
+
 import java.util.List;
 import java.util.Objects;
+
+import jakarta.persistence.OneToOne;
 
 
 public class Obra{
@@ -16,8 +19,13 @@ public class Obra{
     private String outorga;
     private String titularidade;
     
+    @OneToOne(mappedBy = "obraId")
     private List<ObraInspecao> obraInspecao = new ArrayList<>();
+    
+    @OneToOne(mappedBy = "obraId")
     private ObraLocalizacao obraLocalizacao;
+    
+    @OneToOne(mappedBy = "obraId")
     private ObraDetalhesTecnicos obraDetalhesTecnicos;
     
     

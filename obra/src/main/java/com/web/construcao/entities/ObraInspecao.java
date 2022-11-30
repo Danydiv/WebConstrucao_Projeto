@@ -27,6 +27,7 @@ public class ObraInspecao {
     private Integer inspecaoStatus;
     private Integer prioridade;
     
+    @OneToOne(mappedBy = "obraInspecaoId")
     private Inspecao inspecao;
     
     public ObraInspecao() {}
