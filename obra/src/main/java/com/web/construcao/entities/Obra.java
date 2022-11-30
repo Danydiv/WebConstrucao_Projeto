@@ -1,11 +1,12 @@
 package com.web.construcao.entities;
 
-import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
-public class Obra implements Serializable{
 
-	private static final long serialVersionUID = 1L;
+public class Obra{
+
 	private Long id;
 	private String nome;
     private Integer anoConstrucao;
@@ -14,6 +15,11 @@ public class Obra implements Serializable{
     private String diretoria;
     private String outorga;
     private String titularidade;
+    
+    private List<ObraInspecao> obraInspecao = new ArrayList<>();
+    private ObraLocalizacao obraLocalizacao;
+    private ObraDetalhesTecnicos obraDetalhesTecnicos;
+    
     
     public Obra() {
     	
@@ -95,7 +101,20 @@ public class Obra implements Serializable{
 	public void setTitularidade(String titularidade) {
 		this.titularidade = titularidade;
 	}
+	
+	public List<ObraInspecao> getObraInspecao() {
+		return obraInspecao;
+	}
+	
+	public ObraLocalizacao getObraLocalizacao() {
+		return obraLocalizacao;
+	}
 
+
+	public ObraDetalhesTecnicos getObraDetalhesTecnicos() {
+		return obraDetalhesTecnicos;
+	}
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
@@ -112,6 +131,12 @@ public class Obra implements Serializable{
 		Obra other = (Obra) obj;
 		return Objects.equals(id, other.id);
 	}
+
+	
+
+	
+	
     
 	
 }
+
