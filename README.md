@@ -6,3 +6,6 @@ Projeto usando o Java Spring Boot e MySQL
 * Visual Studio Code
 * MySQL Server
 * Postman
+* Eclipse
+* HTML
+* CSS
