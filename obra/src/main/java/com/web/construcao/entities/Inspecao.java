@@ -79,6 +79,12 @@ public class Inspecao {
 		Inspecao other = (Inspecao) obj;
 		return Objects.equals(id, other.id);
 	}
+
+    public void setDate(Object date) {
+    }
+
+    public void setObraInspecaoId(Object obraInspecaoId2) {
+    }
     
     
     

@@ -111,6 +111,12 @@ public class ObraInspecao {
 		return Objects.equals(id, other.id);
 	}
 
+    public void setFrequencia(Object frequencia) {
+    }
+
+    public void setStatus(Object status) {
+    }
+
 	
 
 	

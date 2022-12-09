@@ -38,7 +38,7 @@ public class ObraLocalizacao {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public static void setId(Long id) {
 		this.id = id;
 	}
 
@@ -46,7 +46,7 @@ public class ObraLocalizacao {
 		return cidade;
 	}
 
-	public void setCidade(String cidade) {
+	public static void setCidade(String cidade) {
 		this.cidade = cidade;
 	}
 
@@ -54,7 +54,7 @@ public class ObraLocalizacao {
 		return obraId;
 	}
 
-	public void setObraId(Obra obraId) {
+	public static void setObraId(Obra obraId) {
 		this.obraId = obraId;
 	}
 
@@ -62,7 +62,7 @@ public class ObraLocalizacao {
 		return estado;
 	}
 
-	public void setEstado(String estado) {
+	public static void setEstado(String estado) {
 		this.estado = estado;
 	}
 
@@ -70,7 +70,7 @@ public class ObraLocalizacao {
 		return latitude;
 	}
 
-	public void setLatitude(double latitude) {
+	public static void setLatitude(double latitude) {
 		this.latitude = latitude;
 	}
 
@@ -78,7 +78,7 @@ public class ObraLocalizacao {
 		return longitude;
 	}
 
-	public void setLongitude(double longitude) {
+	public static void setLongitude(double longitude) {
 		this.longitude = longitude;
 	}
 
